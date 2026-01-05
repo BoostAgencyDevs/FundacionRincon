@@ -204,17 +204,17 @@ body {
   
     max-width: 800px;
     animation: fadeInUp 1s ease-out;
-    background: rgba(0, 0, 0, 0.5);
+   
     border-radius: 15px;
     margin-bottom: 80px;
-    backdrop-filter: blur(5px);
+    
 }
 
 .slide-content h2 {
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(231, 216, 216, 0.3);
 }
 
 .slide-content p {
@@ -313,7 +313,7 @@ section {
 
 .section-header h2 {
     font-size: 2.5rem;
-    color: var(--white);
+    color: var(--dark-blue);
     margin-bottom: 1rem;
     font-weight: 700;
 }
@@ -388,38 +388,59 @@ section {
 }
 
 .program-card {
-    background: var(--primary-blue);
-    padding: 2.5rem;
+    background: var(--white);
     border-radius: 15px;
-    text-align: center;
+    overflow: hidden;
     transition: var(--transition);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
 }
 
 .program-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(10, 37, 64, 0.15);
+    box-shadow: 0 15px 40px rgba(10, 37, 64, 0.2);
 }
 
-.program-icon {
-    font-size: 4rem;
+.program-image {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background: var(--light-gray);
+}
+
+.program-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.program-card:hover .program-image img {
+    transform: scale(1.1);
+}
+
+.program-content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.program-content h3 {
+    color: var(--primary-blue);
+    font-size: 1.5rem;
     margin-bottom: 1rem;
+    font-weight: 700;
 }
 
-.program-card h3 {
-    color: var(--white);
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
-
-.program-card p {
+.program-content p {
     color: var(--text-gray);
     line-height: 1.8;
+    font-size: 1rem;
 }
 
 /* Contact Section */
 .contact-section {
-    background: var(--primary-blue);
+    background: var(--primary-gray);
 }
 
 .contact-content {
