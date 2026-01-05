@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fundación Rincón - Comprometidos con hacer la diferencia">
+    <title>Fundación Rincón</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/LOGO.jpg" alt="Fundación Rincón" class="logo-img">
+                    <h1>Fundación Rincón</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#programas">Programas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero/Carousel Section -->
+    <section class="hero-section" id="inicio">
+        <div class="carousel-container">
+            <div class="carousel-slides">
+                <div class="slide active">
+                    <div class="slide-image" style="background-image: url('images/PORTADA.jpg');"></div>
+                  
+                    <div class="slide-content">
+                        <h2>Bienvenidos a Fundación Rincón</h2>
+                        <p>Transformando vidas, construyendo futuro</p>
+                        <a href="#nosotros" class="btn-primary">Conoce más</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-image" style="background-image: url('images/imagen2.png');"></div>
+                    
+                    <div class="slide-content">
+                        <h2>Comprometidos con la Comunidad</h2>
+                        <p>Trabajando juntos por un mejor mañana</p>
+                        <a href="#programas" class="btn-primary">Nuestros Programas</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-image" style="background-image: url('images/imagen3.png');"></div>
+                  
+                    <div class="slide-content">
+                        <h2>Haciendo la Diferencia</h2>
+                        <p>Cada acción cuenta, cada vida importa</p>
+                        <a href="#contacto" class="btn-primary">Únete a nosotros</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+            </div>
+            <!-- Navigation Arrows -->
+            <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+            <button class="carousel-btn next" aria-label="Next slide">›</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="nosotros">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre Nosotros</h2>
+                <p class="section-subtitle">Conoce nuestra misión y visión</p>
+            </div>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="icon">🎯</div>
+                    <h3>Misión</h3>
+                    <p>Nuestra misión es crear oportunidades y transformar vidas a través de programas educativos, sociales y de desarrollo comunitario que generen un impacto positivo y sostenible.</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon">👁️</div>
+                    <h3>Visión</h3>
+                    <p>Ser una fundación reconocida por su compromiso con la excelencia y su capacidad para generar cambios significativos en las comunidades que servimos.</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon">💙</div>
+                    <h3>Valores</h3>
+                    <p>Compromiso, integridad, transparencia y solidaridad son los pilares que guían cada una de nuestras acciones y decisiones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs-section" id="programas">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Programas</h2>
+                <p class="section-subtitle">Iniciativas que transforman vidas</p>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">📚</div>
+                    <h3>Educación</h3>
+                    <p>Programas educativos que brindan herramientas y conocimientos para el desarrollo personal y profesional.</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">🤝</div>
+                    <h3>Desarrollo Social</h3>
+                    <p>Iniciativas que fortalecen el tejido social y promueven la participación comunitaria activa.</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">🌱</div>
+                    <h3>Sostenibilidad</h3>
+                    <p>Proyectos que promueven el cuidado del medio ambiente y el desarrollo sostenible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contacto</h2>
+                <p class="section-subtitle">Estamos aquí para ayudarte</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>contacto@fundacionrincon.org</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <h3>Teléfono</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <h3>Dirección</h3>
+                        <p>Tu dirección aquí</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Fundación Rincón</h3>
+                    <p>Transformando vidas, construyendo futuro</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#programas">Programas</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Fundación Rincón. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
